@@ -12,19 +12,8 @@
 		0ACD2D591944D84D005AF774 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACD2D581944D84D005AF774 /* ViewController.swift */; };
 		0ACD2D5C1944D84D005AF774 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACD2D5A1944D84D005AF774 /* Main.storyboard */; };
 		0ACD2D5E1944D84E005AF774 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACD2D5D1944D84E005AF774 /* Images.xcassets */; };
-		0ACD2D6A1944D84E005AF774 /* MPGTextField_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACD2D691944D84E005AF774 /* MPGTextField_SwiftTests.swift */; };
 		0ACD2D741944D9F6005AF774 /* MPGTextField-Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACD2D731944D9F6005AF774 /* MPGTextField-Swift.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0ACD2D641944D84E005AF774 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0ACD2D491944D84D005AF774 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0ACD2D501944D84D005AF774;
-			remoteInfo = "MPGTextField-Swift";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0A5975FD19470AD1002D77BA /* sample_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample_data.json; sourceTree = "<group>"; };
@@ -34,21 +23,11 @@
 		0ACD2D581944D84D005AF774 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0ACD2D5B1944D84D005AF774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0ACD2D5D1944D84E005AF774 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0ACD2D631944D84E005AF774 /* MPGTextField-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MPGTextField-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0ACD2D681944D84E005AF774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0ACD2D691944D84E005AF774 /* MPGTextField_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPGTextField_SwiftTests.swift; sourceTree = "<group>"; };
 		0ACD2D731944D9F6005AF774 /* MPGTextField-Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MPGTextField-Swift.swift"; path = "../../MPGTextField/MPGTextField-Swift.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0ACD2D4E1944D84D005AF774 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0ACD2D601944D84E005AF774 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				0ACD2D531944D84D005AF774 /* MPGTextField-Swift */,
-				0ACD2D661944D84E005AF774 /* MPGTextField-SwiftTests */,
 				0ACD2D521944D84D005AF774 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				0ACD2D511944D84D005AF774 /* MPGTextField-Swift.app */,
-				0ACD2D631944D84E005AF774 /* MPGTextField-SwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,23 +75,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0ACD2D661944D84E005AF774 /* MPGTextField-SwiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				0ACD2D691944D84E005AF774 /* MPGTextField_SwiftTests.swift */,
-				0ACD2D671944D84E005AF774 /* Supporting Files */,
-			);
-			path = "MPGTextField-SwiftTests";
-			sourceTree = "<group>";
-		};
-		0ACD2D671944D84E005AF774 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0ACD2D681944D84E005AF774 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,24 +95,6 @@
 			productReference = 0ACD2D511944D84D005AF774 /* MPGTextField-Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0ACD2D621944D84E005AF774 /* MPGTextField-SwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0ACD2D701944D84E005AF774 /* Build configuration list for PBXNativeTarget "MPGTextField-SwiftTests" */;
-			buildPhases = (
-				0ACD2D5F1944D84E005AF774 /* Sources */,
-				0ACD2D601944D84E005AF774 /* Frameworks */,
-				0ACD2D611944D84E005AF774 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0ACD2D651944D84E005AF774 /* PBXTargetDependency */,
-			);
-			name = "MPGTextField-SwiftTests";
-			productName = "MPGTextField-SwiftTests";
-			productReference = 0ACD2D631944D84E005AF774 /* MPGTextField-SwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -164,10 +106,6 @@
 				TargetAttributes = {
 					0ACD2D501944D84D005AF774 = {
 						CreatedOnToolsVersion = 6.0;
-					};
-					0ACD2D621944D84E005AF774 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 0ACD2D501944D84D005AF774;
 					};
 				};
 			};
@@ -185,7 +123,6 @@
 			projectRoot = "";
 			targets = (
 				0ACD2D501944D84D005AF774 /* MPGTextField-Swift */,
-				0ACD2D621944D84E005AF774 /* MPGTextField-SwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,13 +135,6 @@
 				0A5975FE19470AD1002D77BA /* sample_data.json in Resources */,
 				0ACD2D5C1944D84D005AF774 /* Main.storyboard in Resources */,
 				0ACD2D5E1944D84E005AF774 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0ACD2D611944D84E005AF774 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,23 +151,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0ACD2D5F1944D84E005AF774 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0ACD2D6A1944D84E005AF774 /* MPGTextField_SwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0ACD2D651944D84E005AF774 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0ACD2D501944D84D005AF774 /* MPGTextField-Swift */;
-			targetProxy = 0ACD2D641944D84E005AF774 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0ACD2D5A1944D84D005AF774 /* Main.storyboard */ = {
@@ -350,42 +264,6 @@
 			};
 			name = Release;
 		};
-		0ACD2D711944D84E005AF774 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MPGTextField-Swift.app/MPGTextField-Swift";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "MPGTextField-SwiftTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-		0ACD2D721944D84E005AF774 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MPGTextField-Swift.app/MPGTextField-Swift";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "MPGTextField-SwiftTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -403,15 +281,6 @@
 			buildConfigurations = (
 				0ACD2D6E1944D84E005AF774 /* Debug */,
 				0ACD2D6F1944D84E005AF774 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0ACD2D701944D84E005AF774 /* Build configuration list for PBXNativeTarget "MPGTextField-SwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0ACD2D711944D84E005AF774 /* Debug */,
-				0ACD2D721944D84E005AF774 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
